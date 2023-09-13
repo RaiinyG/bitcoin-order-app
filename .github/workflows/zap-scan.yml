@@ -1,12 +1,13 @@
-#!/bin/csh
 name: "owasp-scan"
 
-on:
+oon:
   push:
     branches: [githubcicd]
+
 jobs:
   test:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         node-version: [16.x]
