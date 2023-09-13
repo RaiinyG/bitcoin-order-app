@@ -1,6 +1,6 @@
 name: "owasp-scan"
 
-oon:
+on:
   push:
     branches: [githubcicd]
 
